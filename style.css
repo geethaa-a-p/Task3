@@ -1,0 +1,33 @@
+.Flex-Container1{
+   display: flex;
+  flex-direction:column;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   
+}
+
+.flex-items{
+    width: fit-content;
+     padding: 30px;
+    border:1px solid rgb(128, 51, 0);
+    flex-wrap: wrap;
+    
+}
+
+.Flex-Container2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    column-gap: 150px;
+    flex-wrap: wrap;
+ }
+ 
+ .Flex-Container3{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+
+ }
+ 
